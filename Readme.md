@@ -11,3 +11,9 @@ The solution is to make sure that Rails knows that it is a polymorphic relations
 `Backpack` belongs to a person polymorphically.  If `Person` and `Alien` specify that they have many backpacks `:as => :person` then everything works as expected.
 
 For this example repository, run `rake` to see the failing and passing tests demonstrating the issue.
+
+### Detailed How-To
+
+1. bundle install
+1. rake db:migrate
+1. rake
